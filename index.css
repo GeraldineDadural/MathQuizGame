@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(135deg, #f3ec78, #af4261);
+    font-family: 'Arial', sans-serif;
+}
+
+#quiz-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+#question {
+    font-size: 48px; /* Larger font size for the question */
+    color: #333333;
+    margin-bottom: 30px; /* Adds more space between question and choices */
+}
+
+#choices .btn {
+    font-size: 28px; /* Larger font size for choices */
+    padding: 15px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    border: 2px solid #6c757d;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#choices .btn:hover {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+#feedback {
+    font-size: 36px; /* Larger font size for feedback */
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+#next-button {
+    font-size: 23px; /* Larger font size for the next button */
+    padding: 15px 30px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#next-button:disabled {
+    background-color: #cccccc;
+    border-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.progress {
+    height: 10px;
+}
+
+.progress-bar {
+    background-color: #af4261;
+}
